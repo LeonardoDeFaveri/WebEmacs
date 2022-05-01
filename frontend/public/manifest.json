@@ -1,0 +1,27 @@
+{
+  "short_name": "WebEmacs",
+  "name": "WebEmacs",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png"
+    },
+    {
+      "src": "logo.webc",
+      "type": "image/webp"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

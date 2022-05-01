@@ -1,0 +1,32 @@
+:root {
+  --main-bg-color: #FFFFFF;
+  --details-bg-color: #5E5BA8;
+  --main-color: #26262;
+  --details-color: #FFFFFF;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vh;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: var(--details-bg-color);
+  min-height: 1vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(12px + 1vmin);
+  color: var(--main-color);
+  padding: 0em 1em;
+}
+
+.App-link {
+  color: var(--details-color);
+  text-decoration: none;
+}
